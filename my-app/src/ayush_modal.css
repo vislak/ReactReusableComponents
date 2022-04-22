@@ -1,0 +1,70 @@
+.ayush-modal-container
+{
+    background-color: red;
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    position: absolute;
+    top:10vh;
+    left: 10vh;
+    display: block;
+    
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    
+}
+
+.ayush-modal-footer
+{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(218, 218, 0);
+}
+
+.ayush-modal-header
+{
+    width: 100%;
+    height: 10%;
+    background-color: rgb(218, 218, 0);
+    display: flex;
+    flex-direction: row;
+}
+
+.ayush-modal-content
+{
+    width: 100%;
+    height: 80%;
+    background-color: rgb(39, 42, 201);
+}
+
+
+.ayush-modal-header-p1
+{
+  width:10%;
+  height: 100%;
+  background-color: black;
+}
+
+.ayush-modal-header-p2
+{
+    width: 80%;
+    height: 100%;
+    background-color: white;
+}
+
+.ayush-modal-header-p3
+{
+    width:10%;
+    height: 100%;
+    color:yellow;
+    background-color: black;
+}
+
+.ayush-modal-header-p3 span
+{
+ text-align: right;
+ width: 90%;
+ display: block;
+ margin-right: 10%;
+}

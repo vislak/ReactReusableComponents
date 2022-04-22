@@ -1,0 +1,636 @@
+:root {
+    --ExpenseWorkflowfield_col1wid: 6%;
+
+    --ExpenseWorkflowfield_col2wid: 30%;
+    --ExpenseWorkflowfield_col3wid: 14%;
+
+    --ExpenseWorkflowfield_col4wid: 10%;
+    --ExpenseWorkflowfield_col5wid: 10%;
+    --ExpenseWorkflowfield_col6wid: 10%;
+    --ExpenseWorkflowfield_col7wid: 10%;
+    --ExpenseWorkflowfield_col8wid: 10%;
+    /*  col 6 is for our icon columns */
+    /*col 5 is updated by*/
+}
+
+
+.ExpenseWorkflowfield-container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+
+
+.ExpenseWorkflowfield-container i {
+    color: grey;
+}
+
+ .ExpenseWorkflowfield-container i:hover {
+     color: black;
+     cursor: pointer;
+ }
+
+.ExpenseWorkflowfield-drop-down {
+    display: flex;
+    flex-direction: row;
+}
+
+.ExpenseWorkflowfield-heading {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 10%;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.ExpenseWorkflowfield-dropdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 72%;
+}
+
+.ExpenseWorkflowfield-drop-down {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 35%;
+}
+
+.ExpenseWorkflowfield-tablecontainer {
+    height: 30%;
+    width: 87%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.ExpenseWorkflowfield-table {
+    width: 100%;
+}
+
+.ExpenseWorkflowfield-tablehead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    background: #F0F1F5;
+    padding: 5px;
+    padding-right: 0px;
+    padding-left:0px;
+}
+
+
+
+
+.ExpenseWorkflowfield-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 5%;
+}
+
+.ExpenseWorkflow-dropdownclass {
+    width: max-content;
+}
+
+.ExpenseWorkflowtable-name {
+    /*font-weight: bold;*/
+    font-size: 1.3em;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 19px;
+    font-family: 'Oswald';
+    border-bottom: 1px solid #ccc;
+    margin: initial;
+    margin-bottom: 16px;
+    padding-bottom: 4px;
+    color: #435e88;
+    margin-top: 20px;
+    margin-left: 6.5%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /*margin-top: 20px;*/
+}
+
+.ExpenseWorkflowfield-tablebody div {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+    .ExpenseWorkflowfield-tablebody div:nth-of-type(1) {
+        /*padding-top: 8px;*/
+    }
+
+.ExpenseWorkflow-table-attribute1 {
+    width: var(--ExpenseWorkflowfield_col1wid);
+    overflow-wrap: anywhere;
+}
+
+.ExpenseWorkflow-table-attribute2 {
+    width: var(--ExpenseWorkflowfield_col2wid);
+    overflow-wrap: anywhere;
+}
+.ExpenseWorkflow-table-attribute3 {
+    width: var(--ExpenseWorkflowfield_col3wid);
+    overflow-wrap: anywhere;
+}
+
+.ExpenseWorkflow-table-attribute4 {
+    width: var(--ExpenseWorkflowfield_col4wid);
+    overflow-wrap: anywhere;
+}
+.ExpenseWorkflow-table-attribute5 {
+    width: var(--ExpenseWorkflowfield_col5wid);
+    overflow-wrap: anywhere;
+}
+.ExpenseWorkflow-table-attribute6 {
+    width: var(--ExpenseWorkflowfield_col6wid);
+    overflow-wrap: anywhere;
+}
+.ExpenseWorkflow-table-attribute7 {
+    width: var(--ExpenseWorkflowfield_col7wid);
+    overflow-wrap: anywhere;
+}
+
+.ExpenseWorkflow-table-attribute8 {
+    width: var(--ExpenseWorkflowfield_col8wid);
+    overflow-wrap: anywhere;
+}
+
+    .ExpenseWorkflow-table-attribute1 span {
+        overflow: hidden;
+      /*margin-right: 47px;*/
+    }
+
+.ExpenseWorkflow-table-attribute2 span {
+    overflow: hidden;
+  /*margin-right: 47px;*/
+}
+
+.ExpenseWorkflow-table-attribute3 span {
+    overflow: hidden;
+  /*margin-right: 47px;*/
+}
+
+.ExpenseWorkflow-table-attribute4 span {
+    overflow: hidden;
+    /*margin-right: 47px;*/
+}
+
+.ExpenseWorkflow-table-attribute5 span {
+    overflow: hidden;
+  /*margin-right: 47px;*/
+}
+
+.ExpenseWorkflow-table-attribute6 span {
+    overflow: hidden;
+  /*margin-right: 47px;*/
+}
+
+.ExpenseWorkflow-table-attribute7 span {
+    overflow: hidden;
+  /*margin-right: 47px;*/
+}
+
+.ExpenseWorkflow-table-attribute8 span {
+    overflow: hidden;
+  /*margin-right: 47px;*/
+}
+
+
+
+
+
+
+.ExpenseWorkflow-new-entry {
+    margin-top: 3%;
+    margin-left: 6.5%;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ExpenseWorkflow-table-view {
+    cursor: pointer;
+}
+
+
+
+.ExpenseWorkflowfield-tablebody  .ExpenseWorkflow-table-view,.ExpenseWorkflow-table-update,.ExpenseWorkflow-table-remove,.ExpenseWorkflow-table-toggle {
+    padding-left:1%;
+}
+
+
+
+    
+
+.fa-cog {
+    cursor: pointer;
+    color: #aaa;
+}
+
+    .fa-cog:hover {
+        color: black;
+    }
+
+.fa-trash-alt {
+    cursor: pointer;
+    color: #aaa;
+}
+
+    .fa-trash-alt:hover {
+        color: black;
+    }
+
+.ExpenseWorkflowfield-row .left-pad {
+    width: 10px;
+    /*background-color: #7A899C;*/
+    background-color:lightblue;
+    margin-right: 8px;
+}
+
+.ExpenseWorkflowfield-tablehead .left-pad {
+    width: 10px;
+    background-color: #F0F1F5;
+    margin-right: 8px;
+}
+
+.ExpenseWorkflowfield-row {
+    border-bottom: 1px solid aliceblue;
+}
+
+.custom-btn-group div {
+    margin-right: 5px;
+}
+
+.custom-disable-color {
+    color: #7a899c96;
+}
+
+.custom-disable-left-pad {
+    background-color: #7a899c21;
+    width: 10px;
+    margin-right: 8px;
+}
+
+.fa-toggle-on{
+    color:blue;
+}
+
+.fa-toggle-off{
+    color:lightgray;
+}
+
+.ExpenseWorkflowfield-tablebody {
+    max-height: 400px;
+    overflow-y: hidden;
+  
+}
+
+.ExpenseWorkflowfield-tablebody:hover {
+ 
+    overflow-y: scroll;
+    padding-bottom: 100px;
+}
+
+
+/*
+--Allocation Workflow CSs------------------*/
+
+
+
+:root {
+    --AllocationWorkflowfield_col1wid: 6%;
+    --AllocationWorkflowfield_col2wid: 30%;
+    --AllocationWorkflowfield_col3wid: 14%;
+    --AllocationWorkflowfield_col4wid: 10%;
+    --AllocationWorkflowfield_col5wid: 10%;
+    --AllocationWorkflowfield_col6wid: 10%;
+    --AllocationWorkflowfield_col7wid: 10%;
+    --AllocationWorkflowfield_col8wid: 10%;
+    /*  col 6 is for our icon columns */
+    /*col 5 is updated by*/
+}
+
+
+.AllocationWorkflowfield-container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-y: hidden;
+}
+
+
+
+    .AllocationWorkflowfield-container i {
+        color: grey;
+    }
+
+        .AllocationWorkflowfield-container i:hover {
+            color: black;
+            cursor: pointer;
+        }
+
+.AllocationWorkflowfield-drop-down {
+    display: flex;
+    flex-direction: row;
+}
+
+.AllocationWorkflowfield-heading {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 10%;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+
+.AllocationWorkflowfield-dropdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 72%;
+}
+
+.AllocationWorkflowfield-drop-down {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 35%;
+}
+
+.AllocationWorkflowfield-tablecontainer {
+    height: 30%;
+    width: 87%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.AllocationWorkflowfield-table {
+    width: 100%;
+}
+
+.AllocationWorkflowfield-tablehead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    background: #F0F1F5;
+    padding: 5px;
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+
+
+
+.AllocationWorkflowfield-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 5%;
+}
+
+.AllocationWorkflow-dropdownclass {
+    width: max-content;
+}
+
+.AllocationWorkflowtable-name {
+    /*font-weight: bold;*/
+    font-size: 1.3em;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 19px;
+    font-family: 'Oswald';
+    border-bottom: 1px solid #ccc;
+    margin: initial;
+    margin-bottom: 16px;
+    padding-bottom: 4px;
+    color: #435e88;
+    margin-top: 20px;
+    margin-left: 6.5%;
+    margin-bottom: 0px;
+    padding-bottom: 0px;
+    /*margin-top: 20px;*/
+}
+
+.AllocationWorkflowfield-tablebody div {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+    .AllocationWorkflowfield-tablebody div:nth-of-type(1) {
+        /*padding-top: 8px;*/
+    }
+
+.AllocationWorkflow-table-attribute1 {
+    width: var(--AllocationWorkflowfield_col1wid);
+    overflow-wrap: anywhere;
+}
+
+.AllocationWorkflow-table-attribute2 {
+    width: var(--AllocationWorkflowfield_col2wid);
+    overflow-wrap: anywhere;
+}
+
+.AllocationWorkflow-table-attribute3 {
+    width: var(--AllocationWorkflowfield_col3wid);
+    overflow-wrap: anywhere;
+}
+
+.AllocationWorkflow-table-attribute4 {
+    width: var(--AllocationWorkflowfield_col4wid);
+    overflow-wrap: anywhere;
+}
+
+.AllocationWorkflow-table-attribute5 {
+    width: var(--AllocationWorkflowfield_col5wid);
+    overflow-wrap: anywhere;
+}
+
+.AllocationWorkflow-table-attribute6 {
+    width: var(--AllocationWorkflowfield_col6wid);
+    overflow-wrap: anywhere;
+}
+
+.AllocationWorkflow-table-attribute7 {
+    width: var(--AllocationWorkflowfield_col7wid);
+    overflow-wrap: anywhere;
+}
+
+.AllocationWorkflow-table-attribute8 {
+    width: var(--AllocationWorkflowfield_col8wid);
+    overflow-wrap: anywhere;
+}
+
+.AllocationWorkflow-table-attribute1 span {
+    overflow: hidden;
+    /*margin-right: 47px;*/
+}
+
+.AllocationWorkflow-table-attribute2 span {
+    overflow: hidden;
+    /*margin-right: 47px;*/
+}
+
+.AllocationWorkflow-table-attribute3 span {
+    overflow: hidden;
+    /*margin-right: 47px;*/
+}
+
+.AllocationWorkflow-table-attribute4 span {
+    overflow: hidden;
+    /*margin-right: 47px;*/
+}
+
+.AllocationWorkflow-table-attribute5 span {
+    overflow: hidden;
+    /*margin-right: 47px;*/
+}
+
+.AllocationWorkflow-table-attribute6 span {
+    overflow: hidden;
+    /*margin-right: 47px;*/
+}
+
+.AllocationWorkflow-table-attribute7 span {
+    overflow: hidden;
+    /*margin-right: 47px;*/
+}
+
+.AllocationWorkflow-table-attribute8 span {
+    overflow: hidden;
+    /*margin-right: 47px;*/
+}
+
+
+
+
+
+
+.AllocationWorkflow-new-entry {
+    margin-top: 3%;
+    margin-left: 6.5%;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.AllocationWorkflow-table-view {
+    cursor: pointer;
+}
+
+
+
+.AllocationWorkflowfield-tablebody .AllocationWorkflow-table-view, .AllocationWorkflow-table-update, .AllocationWorkflow-table-remove, .AllocationWorkflow-table-toggle {
+    padding-left: 1%;
+}
+
+
+
+
+
+.fa-cog {
+    cursor: pointer;
+    color: #aaa;
+}
+
+    .fa-cog:hover {
+        color: black;
+    }
+
+.fa-trash-alt {
+    cursor: pointer;
+    color: #aaa;
+}
+
+    .fa-trash-alt:hover {
+        color: black;
+    }
+
+.AllocationWorkflowfield-row .left-pad {
+    width: 10px;
+    /*background-color: #7A899C;*/
+    background-color: lightblue;
+    margin-right: 8px;
+}
+
+.AllocationWorkflowfield-tablehead .left-pad {
+    width: 10px;
+    background-color: #F0F1F5;
+    margin-right: 8px;
+}
+
+.AllocationWorkflowfield-row {
+    border-bottom: 1px solid aliceblue;
+}
+
+.custom-btn-group div {
+    margin-right: 5px;
+}
+
+.custom-disable-color {
+    color: #7a899c96;
+}
+
+.custom-disable-left-pad {
+    background-color: #7a899c21;
+    width: 10px;
+    margin-right: 8px;
+}
+
+.fa-toggle-on {
+    color: blue;
+}
+
+.fa-toggle-off {
+    color: lightgray;
+}
+
+.AllocationWorkflowfield-tablebody {
+    max-height: 400px;
+    overflow-y: hidden;
+}
+
+    .AllocationWorkflowfield-tablebody:hover {
+        overflow-y: scroll;
+        padding-bottom: 100px;
+    }
+

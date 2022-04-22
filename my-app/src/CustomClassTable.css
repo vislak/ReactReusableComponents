@@ -1,0 +1,339 @@
+
+.cct-head {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cct-row {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.cct-action-button {
+    display: flex;
+    flex-direction: row;
+    -ms-flex-align: stretch;
+}
+
+:root {
+    --customclassfield_col1wid: 35%;
+    --customclassfield_col2wid: 30%;
+    --customclassfield_col3wid: 15%;
+    --customclassfield_col4wid: 10%;
+    --customclassfield_col5wid: 10%;
+    --customclassfield_col6wid: 8%;
+}
+
+
+.customclassfield-container {
+    background-color: white;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    overflow-y: scroll;
+}
+
+    .customclassfield-container i {
+        color: grey;
+    }
+
+        .customclassfield-container i:hover {
+            color: black;
+            cursor: pointer;
+        }
+
+.customclassfield-drop-down {
+    display: flex;
+    flex-direction: row;
+}
+
+.customclassfield-heading {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    justify-content: center;
+    height: 10%;
+    width: max-content;
+    margin: 0 auto;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.customclassfield-dropdown-wrapper {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 72%;
+}
+
+.customclassfield-drop-down {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 100%;
+    height: 35%;
+}
+
+.customclassfield-tablecontainer {
+    height: 30%;
+    width: 87%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    margin: 0 auto;
+    margin-top: 40px;
+}
+
+.customclassfield-table {
+    width: 100%;
+}
+
+.customclassfield-tablehead {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    font-weight: 600;
+    background: #ddd;
+    padding: 5px;
+    padding-right: 0px;
+}
+
+
+
+.filt-drop {
+    max-width: 18%;
+    flex-grow: 1;
+    flex-shrink: 1;
+    overflow: hidden;
+}
+
+    .filt-drop .inputControl_parentDiv {
+        display: flex;
+        flex-direction: column;
+        align-content: space-between;
+        min-height: 62px;
+        justify-content: space-between;
+    }
+
+    .filt-drop label {
+        text-align: left;
+        font-weight: bold;
+    }
+
+.customclassfield-buttons {
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+    height: 5%;
+}
+
+.customclass-dropdownclass {
+    width: max-content;
+}
+
+.customclasstable-name {
+    font-weight: bold;
+    font-size: 1.3em;
+    width: max-content;
+    margin: 0 auto;
+    margin-top: 19px;
+}
+
+.customclassfield-tablebody div {
+    display: flex;
+    flex-direction: row;
+    padding-top: 5px;
+}
+
+    .customclassfield-tablebody div:nth-of-type(1) {
+        /*padding-top: 8px;*/
+    }
+
+.customclass-table-attribute {
+    width: var(--customclassfield_col1wid);
+    overflow-wrap: anywhere;
+}
+
+    .customclass-table-attribute span {
+        overflow: hidden;
+        margin-right: 47px;
+    }
+
+.customclass-table-field {
+    width: var(--customclassfield_col2wid)
+}
+
+.customclass-table-leg {
+    width: var(--customclassfield_col3wid)
+}
+
+.customclass-table-view {
+    width: var(--customclassfield_col6wid);
+    margin-right: 5px;
+}
+
+.customclass-table-update {
+    width: var(--customclassfield_col6wid);
+    margin-right: 5px;
+}
+
+.customclass-table-remove {
+    width: var(--customclassfield_col6wid);
+    margin-right: 5px;
+}
+
+.customclass-table-toggle {
+    width: var(--customclassfield_col6wid);
+    margin-right: 5px;
+}
+
+
+
+#epf_update {
+    margin-left: 35%;
+}
+
+#epf_cancel {
+    margin-right: 35%;
+}
+
+.custom-form {
+    width: 76%;
+    min-width: 613px;
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    box-shadow: rgb(50 50 93 / 25%) 0px 6px 12px -2px, rgb(0 0 0 / 30%) 0px 3px 7px -3px;
+    align-content: center;
+    align-items: center;
+    justify-content: center;
+    height: 81%;
+    margin-top: 27px;
+    border: 1px solid #d0f0f8;
+    background-color: #F9fbfe;
+}
+
+    .custom-form input {
+        width: 80%;
+        font-size: 0.8em;
+    }
+
+.custom-form-field {
+    display: flex;
+    flex-direction: row;
+    width: 72%;
+    margin-top: 10px;
+    justify-content: space-between;
+}
+
+.custom-btn-group {
+    margin-bottom: 30px;
+    display: flex;
+    justify-content: space-around;
+    width: 360px;
+    margin-top: 30px;
+}
+
+.custom-Add-header {
+    width: 20%;
+    margin: 0 auto;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    font-weight: 600;
+    font-size: 18px;
+    background: #ddd;
+    text-align: center;
+    width: 95%;
+}
+
+.customclass-new-entry {
+    margin-top: 3%;
+    margin-left: 5%;
+    font-size: 13px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.customclass-table-view {
+    cursor: pointer;
+}
+
+.custom-form-close {
+    position: relative;
+    text-align: left;
+    text-align: right;
+    top: 51px;
+    width: 76%;
+    min-width: 613px;
+    margin: 0 auto;
+    top: 55px;
+    color: #aaa;
+    right: 5px;
+    cursor: pointer;
+
+}
+
+    .custom-form-close:hover {
+        color: black;
+    }
+
+.fa-cog {
+    cursor: pointer;
+    color:#aaa;
+}
+
+.fa-cog:hover
+{
+    color:black;
+}
+
+.fa-trash-alt {
+    cursor: pointer;
+    
+    color: #aaa;
+}
+
+    .fa-trash-alt:hover {
+        color: black;
+    }
+
+.customclassfield-row .left-pad {
+    width: 10px;
+    background-color: #7A899C;
+    margin-right: 8px;
+}
+
+.customclassfield-tablehead .left-pad {
+    width: 10px;
+    background-color: #ddd;
+    margin-right: 8px;
+}
+
+.customclassfield-row {
+    border-bottom: 1px solid aliceblue;
+}
+
+.custom-btn-group div{
+    margin-right:5px;
+}
+
+.custom-disable-color {
+    color: #7a899c96;
+}
+
+.custom-disable-left-pad
+{
+    background-color: #7a899c21;
+    width: 10px;
+    
+    margin-right: 8px;
+}

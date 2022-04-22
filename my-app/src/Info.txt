@@ -1,0 +1,12 @@
+CRUD Application
+
+1. Displaying Existing Data
+2. Adding New Custom Class Details
+3. Edit/Delete/View Details 
+
+
+For Displaying Exisiting Data 
+
+    Use Table Component 
+        On Update Delete Add (re render this Component)
+        
